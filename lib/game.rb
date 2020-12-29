@@ -70,7 +70,7 @@ class Game
   end
   
   def play 
-
+    puts "======="
     @board.display
     if(current_player.move(@board))
       #current_player.move(@board)
