@@ -15,7 +15,7 @@ module Players
       if(instructed)
         "Please enter your next move"
       else
-        puts "Please enter your next move in the format:"
+        puts "Player #{@token}, please enter your next move in the format:"
         puts " 1 | 2 | 3 "
         puts "-----------"
         puts " 4 | 5 | 6 "
