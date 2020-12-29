@@ -3,8 +3,9 @@ module Players
     # your code here
     attr_accessor :instructed
     
-    def initialize()
-      
+    def initialize(token)
+    
+    super(token)
       
     end
     
