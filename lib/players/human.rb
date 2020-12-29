@@ -21,9 +21,6 @@ module Players
         move(board)
       end
 
-      input = gets.strip
-      board.update(input,self)
-
       input
       
     end
