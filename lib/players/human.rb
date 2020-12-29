@@ -22,6 +22,8 @@ module Players
         puts "-----------"
         puts " 7 | 8 | 9 "
         puts "==========="
+        @instructed = true
+      end
       
       input = gets.strip
       if (board.valid_move?(input))
