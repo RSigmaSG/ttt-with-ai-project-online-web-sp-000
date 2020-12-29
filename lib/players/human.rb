@@ -3,22 +3,25 @@ module Players
     # your code here
     attr_accessor :instructed
     
-    def initialize(token)
+    def initialize(token = "X")
     
     super(token)
+    @instructed = false
       
     end
     
     def move(board)
       
-      if()
-      puts "Please enter your next move in the format:"
-      puts " 1 | 2 | 3 "
-      puts "-----------"
-      puts " 4 | 5 |6 "
-      puts "-----------"
-      puts " 7 | 8 | 9 "
-      puts "==========="
+      if(instructed)
+        "Please enter your next move"
+      else
+        puts "Please enter your next move in the format:"
+        puts " 1 | 2 | 3 "
+        puts "-----------"
+        puts " 4 | 5 |6 "
+        puts "-----------"
+        puts " 7 | 8 | 9 "
+        puts "==========="
       
       input = gets.strip
       if (board.valid_move?(input))
