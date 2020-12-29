@@ -70,17 +70,6 @@ class Game
   end
   
   def play 
-
-    @board.display
-    if(current_player.move(@board))
-      #current_player.move(@board)
-    else
-      puts "invalid"
-      current_player.move(@board)
-    end
-  end
-  
-  def play 
     
     while(!over?) do
       puts "==========="
