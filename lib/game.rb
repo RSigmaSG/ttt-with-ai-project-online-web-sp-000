@@ -83,7 +83,7 @@ class Game
   def play 
     
     while(!over?) do
-      puts "=========="
+      puts "==========="
       turn
       
     end
