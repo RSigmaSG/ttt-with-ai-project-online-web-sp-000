@@ -6,6 +6,7 @@ module Players
       
 
       puts "Please enter your next move"
+      
       input = gets.strip
       if (board.valid_move?(input))
         board.update(input,self)
