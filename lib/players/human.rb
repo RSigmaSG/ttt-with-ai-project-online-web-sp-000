@@ -1,10 +1,16 @@
 module Players
   class Human < Player
     # your code here
+    attr_accessor :instructed
+    
+    def initialize()
+      
+      
+    end
     
     def move(board)
       
-
+      if()
       puts "Please enter your next move in the format:"
       puts " 1 | 2 | 3 "
       puts "-----------"
