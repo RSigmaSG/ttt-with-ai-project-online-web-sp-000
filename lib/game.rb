@@ -64,6 +64,7 @@ class Game
   
   def turn 
     
+<<<<<<< HEAD
     current_player.move(board)
     @board.display
     
@@ -72,6 +73,18 @@ class Game
   def play 
 
     @board.display
+=======
+    if(current_player.move(@board))
+      #current_player.move(@board)
+    else
+      puts "invalid"
+      current_player.move(@board)
+    end
+  end
+  
+  def play 
+    
+>>>>>>> 58f166b964ea7e93777e795096a8383d07dbd252
     while(!over?) do
       
       turn
@@ -83,6 +96,10 @@ class Game
     
   end
   
+<<<<<<< HEAD
 end
   
   
+=======
+end
+>>>>>>> 58f166b964ea7e93777e795096a8383d07dbd252
